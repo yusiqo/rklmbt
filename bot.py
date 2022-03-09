@@ -1,7 +1,11 @@
 import time
+import os
 import json
+try:
+    import telebot
+except:
+    os.system("pip install pytelegrambotapi")
 import telebot
-
 ##TOKEN DETAILS
 TOKEN = "Reklam"
 
